@@ -4,11 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Обо мне</title>
-	<meta property="description"
+	<title>Обо мне, опыт и навыки</title>
+	<meta name="description"
 		content="Привет! Я веб-разработчик, стремящийся к совершенству в каждом проекте. Мои работы - это искусство, сочетающее инновационный дизайн с передовыми технологиями.">
 
-	<meta property="og:title" content="Обо мне">
+	<meta property="og:title" content="Обо мне, опыт и навыки">
 	<meta property="og:description"
 		content="Привет! Я веб-разработчик, стремящийся к совершенству в каждом проекте. Мои работы - это искусство, сочетающее инновационный дизайн с передовыми технологиями.">
 
