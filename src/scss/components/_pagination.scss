@@ -1,0 +1,42 @@
+.pagination {
+
+    // .pagination__hidden
+    &__hidden {
+        display: none;
+    }
+
+    // .pagination__more
+    &__more {
+        margin-top: 28px;
+
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130%;
+        text-align: left;
+        text-decoration: underline;
+        cursor: pointer;
+
+        &:hover {
+            color: $grey-dark;
+            transition: all 0.3s ease-in-out;
+        }
+
+        @media screen and (max-width: $sm) {
+            margin-left: 20px;
+        }
+
+        &.active {
+            .pagination__more--close-text {
+                display: block;
+            }
+            .pagination__more--open-text {
+                display: none;
+            }
+        }
+    }
+
+    // .pagination__more--close-text
+    &__more--close-text {
+        display: none;
+    }
+}

@@ -1,0 +1,58 @@
+<div class="skills">
+    <div class="skills__title">Навыки</div>
+    <div class="excellence pagination">
+        <div class="excellence__item">
+            <div class="excellence__item--label">
+                <div class="excellence__item--traker" style="width: 100%;"></div>
+                <span>Верстка</span>
+            </div>
+            <div class="excellence__item--text">Хорошо адаптирую веб-сайты под различные устройства и экраны
+                для оптимального отображения.</div>
+        </div>
+        <div class="excellence__item">
+            <div class="excellence__item--label">
+                <div class="excellence__item--traker" style="width: 100%;"></div>
+                <span>JavaScript</span>
+            </div>
+            <div class="excellence__item--text">Хорошо знаю синтаксис как нативного JavaScript, так и его библиотеки
+                jQuery. Есть опыт разработки на Vue.js и понимание о работе React.js.</div>
+        </div>
+        <div class="excellence__item">
+            <div class="excellence__item--label">
+                <div class="excellence__item--traker" style="width: 90%;"></div>
+                <span>SCSS</span>
+            </div>
+            <div class="excellence__item--text">Есть опыт работы с миксинами, переменными, циклами. Хорошо знаю Tailwind
+                CSS(CSS-фреймворк).
+            </div>
+        </div>
+        <div class="excellence__item">
+            <div class="excellence__item--label">
+                <div class="excellence__item--traker" style="width: 30%;"></div>
+                <span>Английский язык</span>
+            </div>
+            <div class="excellence__item--text">Могу читать техническую документацию с переводчиком.</div>
+        </div>
+        <div class="excellence__item pagination__hidden">
+            <div class="excellence__item--label">
+                <div class="excellence__item--traker" style="width: 100%;"></div>
+                <span>Сборка</span>
+            </div>
+            <div class="excellence__item--text">Могу сделать сборку верстки на gulp, webpack, vite.</div>
+        </div>
+        <div class="excellence__item pagination__hidden">
+            <div class="excellence__item--label">
+                <div class="excellence__item--traker" style="width: 95%;"></div>
+                <span>GIT</span>
+            </div>
+            <div class="excellence__item--text">Уверенное знание git и его основных команд push, commit, pull, checkout,
+                add, merge, diff,
+                status, log, clone.</div>
+        </div>
+
+        <div class="excellence__more pagination__more">
+            <span class="pagination__more--open-text">Показать полностью</span>
+            <span class="pagination__more--close-text">Свернуть</span>
+        </div>
+    </div>
+</div>

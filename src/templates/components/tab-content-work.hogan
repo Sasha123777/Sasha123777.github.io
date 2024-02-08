@@ -1,0 +1,45 @@
+<div class="work">
+    <div class="work__title">Опыт работы</div>
+    <div class="list pagination">
+        <div class="list__item">
+            <div class="list__item--title">Компания ООО «Рубиум»</div>
+            <div class="list__item--text">Работала с веб-интерфейсами различной сложности от Langing-page до большого
+                онлайн-магазина, с адаптацией веб-сайтов под различные устройства и браузеры.</div>
+            <div class="list__item--label">июль 2019 г — настоящее время</div>
+        </div>
+        <!-- <div class="list__item">
+            <div class="list__item--title">Компания «ИИС-медиа»</div>
+            <div class="list__item--text">Работал с веб-интерфейсами финансовых приложений (обеспечение безопасности
+                и доработка компонентов).</div>
+            <div class="list__item--label">июнь 2021 г — март 2022 г</div>
+        </div>
+        <div class="list__item pagination__hidden">
+            <div class="list__item--title ">Компания «Webdev»</div>
+            <div class="list__item--text">Разрабатывал интерфейсы для веб-приложений, участвовал в проектировании
+                и оптимизации пользовательского опыта.</div>
+            <div class="list__item--label">март 2022 г — май 2024 г</div>
+        </div>
+        <div class="list__item pagination__hidden">
+            <div class="list__item--title ">Магазин «Охота и рыбалка»</div>
+            <div class="list__item--text">Улучшил процесс покупки и взаимодействия с клиентами, оптимизировав интерфейс
+                онлайн-магазина.</div>
+            <div class="list__item--label">Апрель 2018г — Октябрь 2020 г</div>
+        </div>
+        <div class="list__item pagination__hidden">
+            <div class="list__item--title">Компания «Окна»</div>
+            <div class="list__item--text">Поддержка веб-проектов, разработка промо-страницы для маркетинговых компаний.
+            </div>
+            <div class="list__item--label">октябрь 2020 г — июнь 2021 г</div>
+        </div>
+        <div class="list__item pagination__hidden">
+            <div class="list__item--title">Фриланс</div>
+            <div class="list__item--text">Индивидуальная разработка фронтенда для веб-сайтов, адаптация под различные
+                устройства и браузеры.</div>
+            <div class="list__item--label">Апрель 2015г — Август 2017 г</div>
+        </div>
+        <div class="list__more pagination__more">
+            <span class="pagination__more--open-text">Показать полностью</span>
+            <span class="pagination__more--close-text">Свернуть</span>
+        </div> -->
+    </div>
+</div>

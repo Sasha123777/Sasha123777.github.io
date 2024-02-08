@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="tab__menu">
+        <div class="tab__menu-item active" data-tab="about" title="Обо мне">Обо мне</div>
+        <div class="tab__menu-item" data-tab="work" title="Опыт работы">Опыт работы</div>
+        <div class="tab__menu-item" data-tab="skills" title="Навыки">Навыки</div>
+    </div>
+</div>

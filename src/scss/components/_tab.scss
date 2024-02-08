@@ -1,0 +1,113 @@
+.tab {
+
+    // .tab__menu
+    &__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 49px 0 53px 0;
+
+        @media screen and (max-width: $sm) {
+            padding: 42px 0 40px 0;
+        }
+    }
+
+    // .tab__menu-item
+    &__menu-item {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        cursor: pointer;
+        white-space: nowrap;
+        text-align: center;
+
+        position: relative;
+
+        &:not(:first-child) {
+            margin-left: 64px;
+            @media screen and (max-width: $sm) {
+               margin-left: 24px;
+            }
+            @media screen and (max-width: $smm) {
+                margin-left: 12px;
+            }
+        }
+
+        @media screen and (max-width: $smm) {
+            font-size: 16px;
+        }
+
+        &::after {
+            display: block;
+            content: attr(title);
+            font-weight: bold;
+            height: 0;
+            overflow: hidden;
+            visibility: hidden;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: -9px;
+            width: 0px;
+            height: 4px;
+            background: $yellow;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        &.active {
+            font-weight: 700;
+        }
+        &:hover {
+            font-weight: 700;
+
+            &::before {
+                width: calc(100% + 4px);
+                transition: all 0.3s ease-in-out;
+                left: -3px;
+            }
+        }
+    }
+
+    // .tab__content
+    &__content {
+    }
+
+    // .tab__content-item
+    &__content-item {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+        &.active-animate {
+            animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes swing-in-top-fwd {
+    0% {
+        transform: rotateX(-100deg);
+        transform-origin: top;
+        opacity: 0;
+    }
+    100% {
+        transform: rotateX(0deg);
+        transform-origin: top;
+        opacity: 1;
+    }
+}

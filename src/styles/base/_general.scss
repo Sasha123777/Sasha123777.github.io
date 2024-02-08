@@ -1,0 +1,61 @@
+body {
+    font-family:$font-primary;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $black;
+
+    * {
+        box-sizing: border-box;
+    }
+
+    a {
+        color: $black;
+        text-decoration: none;
+    }
+
+    img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1360px;
+        margin: 0 auto;
+
+        @media screen and (max-width: $sm) {
+            padding: 0 20px;
+        }
+    }
+
+    .button {
+        border-radius: 64px;
+        padding: 16px 40px;
+        background: $black;
+        cursor: pointer;
+
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 130%;
+        text-align: center;
+        color: $white;
+        white-space: nowrap;
+        transition: all 0.3s ease-in-out;
+
+        @media screen and (max-width: $md) {
+            padding: 16px 24px;
+        }
+        @media screen and (max-width: $sm) {
+            width: 100%;
+        }
+
+        &:hover {
+            background: $yellow;
+            color: $black;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
