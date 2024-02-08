@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Обо мне</title>
+	<meta property="og:title" content="Обо мне" />
+	<meta property="og:description"
+		content="Привет! Я веб-разработчик, стремящийся к совершенству в каждом проекте. Мои работы - это искусство, сочетающее инновационный дизайн с передовыми технологиями." />
 
 	<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">

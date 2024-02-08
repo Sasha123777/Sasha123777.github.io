@@ -2,11 +2,12 @@
     <div class="container">
         <div class="info">
             <div class="info__left">
-                <a href="mailto:murtazik-murti@yandex.ru" class="info__left-mail">murtazik-murti@yandex.ru</a>
-                <a href="tel:79525690986" class="info__left-phone">+7 952 569-09-86</a>
+                <a href="mailto:murtazik-murti@yandex.ru" class="info__left-mail"
+                    title="E-mail">murtazik-murti@yandex.ru</a>
+                <a href="tel:79525690986" class="info__left-phone" title="Номер телефона">+7 952 569-09-86</a>
             </div>
             <div class="info__social">
-                <a href="https://vk.com/aleksandra_murtazina" class="info__social-item" target="_blank">
+                <a href="https://vk.com/aleksandra_murtazina" class="info__social-item" title="Vk" target="_blank">
                     <svg class="info__social-item--svg">
                         <use xlink:href="../../images/sprites/sprite.svg#social-vk"></use>
                     </svg>
@@ -14,7 +15,7 @@
                         <use xlink:href="../../images/sprites/sprite.svg#social-vk-yellow"></use>
                     </svg>
                 </a>
-                <a href="https://github.com/Sasha123777" class="info__social-item" target="_blank">
+                <a href="https://github.com/Sasha123777" class="info__social-item" title="Github" target="_blank">
                     <svg class="info__social-item--svg">
                         <use xlink:href="../../images/sprites/sprite.svg#social-1"></use>
                     </svg>
@@ -22,8 +23,8 @@
                         <use xlink:href="../../images/sprites/sprite.svg#social-1-yellow"></use>
                     </svg>
                 </a>
-                <a href="https://www.instagram.com/77_sasha_?igsh=bzNvM28xc2pnYzBj" class="info__social-item"
-                    target="_blank">
+                <a href="https://www.instagram.com/77_sasha_?igsh=bzNvM28xc2pnYzBj" title="Instagram"
+                    class="info__social-item" target="_blank">
                     <svg class="info__social-item--svg">
                         <use xlink:href="../../images/sprites/sprite.svg#social-insta"></use>
                     </svg>
